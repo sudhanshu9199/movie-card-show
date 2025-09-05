@@ -11,6 +11,7 @@ const Cards = (props) => {
     <div className={style.cards}>
       <Link to={`/detail/${id}`}>
         <img
+          loading="lazy"
           src={poster}
           alt=""
         />

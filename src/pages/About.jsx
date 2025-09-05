@@ -107,15 +107,15 @@ const About = () => {
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv2IZ1Yku50b-BiARKwl-stItuYHtPXy8haGMIlgGbhdGl1PLbTHR0N51y3JOP0vkQANI&usqp=CAU",
             "https://cdnb.artstation.com/p/assets/images/images/074/298/193/large/manaal-tawde-avatars-poster.jpg?1711712778"
           ].map((src, i) => (
-            <img key={i} ref={(el) => (imagesRef.current[i] = el)} src={src} alt="" />
+            <img loading="lazy" key={i} ref={(el) => (imagesRef.current[i] = el)} src={src} alt="" />
           ))}
         </div>
       </div>
 
       <div className={style.container2} ref={container2Ref}>
         <div className={style.left}>
-          <img src={movie_clapper} alt="" ref={clapperRef} />
-          <img src={wood_table} alt="" ref={tableRef} />
+          <img loading="lazy" src={movie_clapper} alt="" ref={clapperRef} />
+          <img loading="lazy" src={wood_table} alt="" ref={tableRef} />
         </div>
         <div className={style.right}>
           <p ref={el => text3Ref.current[0] = el}>Your movies live safely in your device through local storage—no sign-ups, no servers, just pure movie love. Delete the ones you’re done with, or mark the ones closest to your heart ❤️ in the Favorites section.</p>

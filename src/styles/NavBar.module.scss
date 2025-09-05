@@ -1,0 +1,21 @@
+.container {
+    background: rgba(255, 255, 255, 0.052);
+    width: fit-content;
+    padding: 0.5rem 1.5rem;
+    font-size: 1.3rem;
+    gap: 2rem;
+    display: flex;
+    justify-content: center;
+    font-family: "Nunito Sans", sans-serif;
+    margin: 2rem 0;
+    backdrop-filter: blur(10px);      /* blur background behind */
+    color: rgb(199, 199, 199);
+
+
+    .actives {
+        color: white;
+        font-weight: 700;
+        text-decoration: 2px underline solid red;
+        text-underline-offset: 0.5rem;
+    }
+}

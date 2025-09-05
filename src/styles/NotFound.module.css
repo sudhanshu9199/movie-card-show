@@ -1,0 +1,10 @@
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container img {
+  width: 72%;
+  mix-blend-mode: color-dodge;
+}/*# sourceMappingURL=NotFound.module.css.map */

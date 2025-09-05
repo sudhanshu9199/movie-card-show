@@ -1,0 +1,36 @@
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  form {
+    width: 80%;
+    input, textarea {
+      color: white;
+      font-size: 1.5rem;
+      background: rgba(255, 255, 255, 0.052);
+      margin-bottom: 2rem;
+      margin-right: 3rem;
+      padding: 0.5rem 0.9rem;
+    }
+
+    input:nth-child(1) {
+        width: 50%;
+    }
+    button {
+        color: white;
+        background: green;
+        padding: 0.5rem 1.2rem;
+        font-size: 1.2rem;
+        letter-spacing: 0.1rem;
+        text-transform: uppercase;
+        font-weight: 600;
+        cursor: pointer;
+
+        &:active{
+            scale: 0.95;
+        }
+    }
+    
+  }
+}
